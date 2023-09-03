@@ -6,6 +6,57 @@
 
 :root{
     font-size: 62.5%;
-    --color-base-header:#065E7C;
+    --color-header:#065E7C;
+    --color-input:#387E96;
+    font-family: 'Mulish', sans-serif;
 }
 
+header{
+    display: flex;
+    gap: 2.5rem;
+    background-color: var(--color-header);
+    padding: 1.2rem 2.8rem;
+}
+
+header form{
+    flex: 1;
+}
+
+.ball{
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 50%;
+}
+
+.input-wrapper label{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.input-wrapper input{
+    background-color: var(--color-input);
+    border: none;
+    border-radius: .4rem;
+    padding: 1.2rem;
+
+    width: 100%;
+    Font-size: 1.6REM;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    color: white;
+}
+
+.avatar{
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 50%;
+}
+
+
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
